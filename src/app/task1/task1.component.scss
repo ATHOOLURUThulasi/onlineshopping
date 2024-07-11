@@ -1,0 +1,124 @@
+$nav-margin-left: 680px;
+$nav-link-color: #000;
+$nav-link-hover-color: #333;
+
+.nav {
+    margin-left: $nav-margin-left;
+
+    .custom-nav-link {
+        text-decoration: none;
+        color: $nav-link-color;
+        background-color: transparent;
+
+        &:hover {
+            text-decoration: underline;
+            color: $nav-link-hover-color;
+        }
+    }
+}
+
+.bottom-shadow {
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    
+    .font {
+        font-weight: normal;
+    }
+}
+
+.header {
+    max-width: 700px;
+
+    .para {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+}
+
+.container1 {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-width: 220px;
+
+        .card {
+            flex: 0 0 calc(33.3333% - 1rem); 
+            margin-bottom: 1.5rem;
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+
+            .card-header {
+                padding: 0.75rem 1.25rem;
+                margin-bottom: 0;
+                background-color: rgba(0, 0, 0, 0.03);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+                .font-weight-normal {
+                    font-weight: 400;
+                }
+            }
+
+            .card-body {
+                padding: 1.25rem;
+
+                .card-title {
+                    margin-bottom: 0.75rem;
+
+                    .text-muted {
+                        color: #6c757d;
+                    }
+                }
+
+                h1 {
+                    font-size: 2.5rem;
+                }
+
+                small {
+                    font-size: 80%;
+                    font-weight: 400;
+                }
+
+                .list-unstyled {
+                    padding-left: 0;
+                    list-style: none;
+                }
+
+                .btn:not(:disabled):not(.disabled) {
+                    cursor: pointer;
+                }
+
+                .btn-block {
+                    display: block;
+                    width: 100%;
+                }
+
+                .btn-lg {
+                    padding: 0.5rem 1rem;
+                    font-size: 1.25rem;
+                    line-height: 1.5;
+                    border-radius: 0.3rem;
+                }
+
+                .btn-outline-primary {
+                    color: #007bff;
+                    background-color: transparent;
+                    background-image: none;
+                    border-color: #007bff;
+
+                
+                    &:hover {
+                        background-color: #007bff;
+                        border-color: #007bff;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

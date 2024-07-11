@@ -1,0 +1,100 @@
+.nav {
+  margin-left: 680px;
+}
+.nav .custom-nav-link {
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
+}
+.nav .custom-nav-link:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.bottom-shadow {
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+.bottom-shadow .font {
+  font-weight: normal;
+}
+
+.header {
+  max-width: 700px;
+}
+.header .para {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.container1 {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container1 .card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 220px;
+}
+.container1 .card-deck .card {
+  flex: 0 0 calc(33.3333% - 1rem);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+.container1 .card-deck .card .card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.container1 .card-deck .card .card-header .font-weight-normal {
+  font-weight: 400;
+}
+.container1 .card-deck .card .card-body {
+  padding: 1.25rem;
+}
+.container1 .card-deck .card .card-body .card-title {
+  margin-bottom: 0.75rem;
+}
+.container1 .card-deck .card .card-body .card-title .text-muted {
+  color: #6c757d;
+}
+.container1 .card-deck .card .card-body h1 {
+  font-size: 2.5rem;
+}
+.container1 .card-deck .card .card-body small {
+  font-size: 80%;
+  font-weight: 400;
+}
+.container1 .card-deck .card .card-body .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.container1 .card-deck .card .card-body .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.container1 .card-deck .card .card-body .btn-block {
+  display: block;
+  width: 100%;
+}
+.container1 .card-deck .card .card-body .btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+.container1 .card-deck .card .card-body .btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+}
+.container1 .card-deck .card .card-body .btn-outline-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}/*# sourceMappingURL=task1.component.css.map */
